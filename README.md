@@ -171,6 +171,24 @@ The project is organized into modular `.cpp` files, each addressing a specific p
     - **Dynamic Indexing:** Efficiently handles destination arrays of unknown final lengths.
 - **Technical Skills:** Modulo Operations, Logic Filtering, and Modular Array Construction.
 
+### 18. Advanced Prime Number Filtering
+- **File:** `Array-CopyPrimesAdvanced.cpp`
+- **Goal:** Extract all prime numbers from a randomized source array and store them in a separate array.
+- **Logic:** - Integrates a dedicated `CheckPrime()` function using an efficient `Number/2` limit.
+    - Utilizes an **Enum** (`enPrimeNotPrime`) for clearer code readability and semantic meaning.
+    - Employs the `AddArrayElement()` strategy to build the second array conditionally.
+- **Advanced Features:** - **Semantic Coding:** Using Enums instead of magic numbers (0, 1) for logic states.
+    - **Modular Reusability:** Combines mathematical algorithms with array manipulation helpers.
+- **Technical Skills:** Enumerations, Primality Testing, and Conditional Array Re-construction.
+
+### 19. Data De-duplication (Distinct Elements)
+- **File:** `Array-DistinctElements.cpp`
+- **Goal:** Copy only unique (distinct) numbers from a source array that contains multiple duplicates.
+- **Logic:** - Iterates through the source array and checks if the current element already exists in the destination array using `IsNumberInArray()`.
+    - If the element is not found (meaning it's new), it is added using `AddArrayElement()`.
+- **Advanced Features:** - **Logical Integration:** High-level reuse of search and append functions.
+    - **Data Integrity:** Ensures no redundant data occupies memory in the new array.
+- **Technical Skills:** Algorithmic Thinking, Data Cleansing, and Multi-function Coordination.
   
 ---
 1. **Clone the repo:**
