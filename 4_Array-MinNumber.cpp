@@ -3,7 +3,7 @@
 #include <ctime>      // For time()
 using std::cin;
 using std::cout;
-using std::endl;
+using std::endl; 
 
 // Maximum size of the array
 const int MAX_SIZE = 100; 
