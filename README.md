@@ -77,6 +77,100 @@ The project is organized into modular `.cpp` files, each addressing a specific p
     - **Scalability:** Designed to handle up to `MAX_SIZE` elements efficiently.
 - **Technical Skills:** Array Assignment, Memory Safety, and Loop-based Data Transfer.
 
+  ### 8. Prime Numbers Filtering
+- **File:** `Array-FilterPrimes.cpp`
+- **Goal:** Identify and copy only prime numbers from a source array into a destination array.
+- **Logic:** - Uses a `CheckPrime()` function with an optimized loop (`i * i <= n`).
+    - Iterates through the first array and conditionally adds elements to the second array based on primality.
+- **Advanced Features:** - **Optimization:** Improved prime checking performance.
+    - **Dynamic Counting:** `arr2Length` is updated only when a prime is found.
+- **Technical Skills:** Number Theory, Conditional Data Transfer, and Algorithmic Efficiency.
+
+### 9. Two-Array Element-wise Summation
+- **File:** `Arrays-ElementWiseSum.cpp`
+- **Goal:** Generate two random arrays and compute their sum into a third array.
+- **Logic:** - Creates two arrays of the same length and fills them with random values.
+    - Iterates through both arrays simultaneously, adding elements at the same index (`arrSum[i] = arr1[i] + arr2[i]`).
+- **Advanced Features:** - **Parallel Processing:** Demonstrates how to handle multiple arrays in a single logic flow.
+    - **Custom Input:** Uses `ReadPositiveNumber()` for dynamic array sizing.
+- **Technical Skills:** Array Arithmetic, Multi-array Indexing, and Logic Scaling.
+
+### 10. Random Array Shuffle
+- **File:** `Array-RandomShuffle.cpp`
+- **Goal:** Fill an array with sequential numbers (1 to N) and then randomly rearrange their order.
+- **Logic:** - Uses a `Swap()` function to exchange values between two random indices.
+    - Iterates through the array and performs multiple swaps to ensure a thorough shuffle.
+- **Advanced Features:** - **Logical Separation:** Independent `Swap()`, `RandomNumber()`, and `ShuffleArray()` functions.
+    - **Dynamic Interaction:** User defines the range, and the program handles the sequence generation and randomization.
+- **Technical Skills:** Fisher-Yates-like Logic, Reference Passing (`int&`), and Random Indexing.
+
+  ### 11. Array Reverse Copy (Pointer Based)
+- **File:** `Array-ReverseCopy.cpp`
+- **Goal:** Copy elements from a source array into a destination array in reverse order.
+- **Logic:** - Uses **Pointer Arithmetic** (`int* p`) to traverse and fill the array.
+    - Employs the formula `*(dest + i) = *(src + arrLength - 1 - i)` to achieve the reverse mapping.
+- **Advanced Features:** - **Memory Navigation:** Demonstrates direct memory access using pointers instead of traditional indexing.
+    - **Efficiency:** Optimized traversal for both filling and copying operations.
+- **Technical Skills:** Pointer Arithmetic, Array Reversal, and Memory Management.
+
+  ### 12. Random Key Generator & Array Storage
+- **File:** `Array-KeyGenerator.cpp`
+- **Goal:** Create a professional-grade license key generator (Format: XXXX-XXXX-XXXX-XXXX) and store multiple keys in a string array.
+- **Logic:** - Uses an **Enumeration** (`enCharType`) to categorize character types (Letters, Digits, Specials).
+    - Implements a modular approach: `GetRandomCharacter` -> `GenerateWord` -> `GenerateKey`.
+    - Fills a string array with the generated keys for batch processing.
+- **Advanced Features:** - **ASCII Mapping:** Direct translation of random integers to ASCII characters.
+    - **String Manipulation:** Complex string concatenation and formatting.
+    - **Scalability:** Easily adjustable key lengths and formats.
+- **Technical Skills:** Enums, Switch-Case, String Arrays, and Seed-based Randomization.
+
+  ### 13. Linear Search: Find Element Index
+- **File:** `Array-FindIndex.cpp`
+- **Goal:** Search for a specific number within a randomly generated array and return its exact location.
+- **Logic:** - Implements the **Linear Search Algorithm** by iterating through the array and comparing each element with the target value.
+    - Returns the index `i` if found, or `-1` to indicate the element does not exist.
+- **Advanced Features:** - **Zero-based vs One-based Indexing:** Displays both the technical index (Position) and the human-readable order.
+    - **Early Exit:** The function returns immediately upon finding the number, optimizing performance.
+- **Technical Skills:** Search Algorithms, Conditional Branching, and Index Management.
+
+### 14. Array Membership Search
+- **File:** `Array-SearchElement.cpp`
+- **Goal:** Check if a specific value exists in an array and return a boolean result (`true`/`false`).
+- **Logic:** - Reuses the `FindNumberPositionInArray()` function to avoid code duplication.
+    - Implements a wrapper function `IsNumberInArray()` that returns `true` if the index is not `-1`.
+- **Advanced Features:** - **Modular Architecture:** Demonstrates how complex functions can be built upon simpler helper functions.
+    - **Clean Interface:** Provides a simple "Yes/No" output for the end user.
+- **Technical Skills:** Boolean Logic, Function Re-use (DRY Principle), and Logic Wrapping.
+
+### 15. Semi-Dynamic Array Element Addition
+- **File:** `Array-DynamicAppend.cpp`
+- **Goal:** Allow the user to populate an array by adding elements one by one until they decide to stop.
+- **Logic:** - Implements the `AddArrayElement()` function, which inserts a value at the current `arrLength` and then increments the length.
+    - Uses a `do-while` loop to maintain an interactive session with the user.
+- **Advanced Features:** - **Reference Management:** Uses `int& arrLength` to keep track of the array's size across different functions.
+    - **Interactive Flow:** High-level user interaction with boolean-driven loop control.
+- **Technical Skills:** Dynamic-like Data Growth, Reference Parameters, and Interactive Loop Design.
+
+### 16. Professional Array Copying (Using AddElement Logic)
+- **File:** `Array-CopyByAddition.cpp`
+- **Goal:** Copy all elements from a source array to a destination array using a modular "AddElement" approach.
+- **Logic:** - Instead of traditional index-to-index copying (`arr2[i] = arr1[i]`), it calls the `AddArrayElement()` function.
+    - This abstracts the index management of the destination array, making the code cleaner and less prone to off-by-one errors.
+- **Advanced Features:** - **Code Reusability:** Leverages helper functions to perform complex tasks.
+    - **Modular Design:** Isolates the logic of "adding" from the logic of "looping".
+- **Technical Skills:** Function Abstraction, DRY Principle, and Multi-array Synchronization.
+
+  
+
+### 17. Odd Numbers Filtering (Dynamic Copy)
+- **File:** `Array-FilterOddNumbers.cpp`
+- **Goal:** Extract only the odd numbers from a source array into a new destination array.
+- **Logic:** - Traverses the source array and applies the modulo operator (`% 2 != 0`).
+    - Uses the `AddArrayElement()` helper to build the second array without needing a separate counter in the main loop.
+- **Advanced Features:** - **Conditional Copying:** Demonstrates logical filtering of data sets.
+    - **Dynamic Indexing:** Efficiently handles destination arrays of unknown final lengths.
+- **Technical Skills:** Modulo Operations, Logic Filtering, and Modular Array Construction.
+
   
 ---
 1. **Clone the repo:**
