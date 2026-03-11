@@ -46,8 +46,6 @@ The project is organized into modular `.cpp` files, each addressing a specific p
 - **Advanced Features:** Includes size validation and professional Doxygen documentation.
 - **Technical Skills:** `srand()`, `time()`, `static_cast`, and Constant Management.
 
----
-
 ### 3. Array Maximum Value Finder
 - **File:** `Array-MaxNumber.cpp`
 - **Goal:** Identify the largest value within a randomly generated array.
@@ -56,6 +54,7 @@ The project is organized into modular `.cpp` files, each addressing a specific p
 - **Technical Skills:** Comparison Logic, Array Traversal, and Optimization.
 ## 🛠️ How to Compile and Run
 
+---
 1. **Clone the repo:**
    ```bash
    git clone [https://github.com/YourUsername/Cpp-Array-Mastery.git](https://github.com/YourUsername/Cpp-Array-Mastery.git)
