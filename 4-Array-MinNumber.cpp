@@ -6,7 +6,7 @@ using std::cout;
 using std::endl;
 
 // Maximum size of the array
-const int MAX_SIZE = 100;
+const int MAX_SIZE = 100; 
 
 /**
  * @brief Generates a random integer between two values (inclusive)
