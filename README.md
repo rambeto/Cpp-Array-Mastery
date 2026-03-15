@@ -10,25 +10,25 @@ The project is organized into modular `.cpp` files, each addressing a specific p
 
 | # | Professional File Name | Description | Key Concept |
 |:---|:---|:---|:---|
-| 01 | `Array-ElementFrequency.cpp` | Count how many times each element appears. | Frequency Counting |
-| 02 | `Array-RandomFill.cpp` | Automatically fill an array with random numbers. | Randomization |
-| 03 | `Array-MaxNumber.cpp` | Find the maximum value within an array. | Search Algorithms |
-| 04 | `Array-MinNumber.cpp` | Find the minimum value within an array. | Search Algorithms |
-| 05 | `Array-SumElements.cpp` | Calculate the total sum of all elements. | Accumulation |
-| 06 | `Array-AverageCalculation.cpp` | Calculate the mathematical average. | Statistics |
-| 07 | `Array-CopyBasic.cpp` | Copying elements from one array to another. | Data Transfer |
-| 08 | `Array-FilterPrimes.cpp` | Extract only prime numbers into a new array. | Number Theory |
-| 09 | `Arrays-ElementWiseSum.cpp` | Sum of two arrays element by element. | Vector Addition |
-| 10 | `Array-RandomShuffle.cpp` | Randomize the order of elements (Shuffle). | Random Algorithms |
-| 11 | `Array-ReverseCopy.cpp` | Copy elements in a reversed sequence. | Reverse Indexing |
-| 12 | `Array-KeyGenerator.cpp` | Generating an array of random security keys. | String Manipulation |
-| 13 | `Array-FindIndex.cpp` | Find the position (index) of a specific element. | Linear Search |
-| 14 | `Array-SearchElement.cpp` | Check if a specific value exists. | Boolean Logic |
-| 15 | `Array-DynamicAppend.cpp` | Add elements to a static array semi-dynamically. | Dynamic Growth |
-| 16 | `Array-CopyByAddition.cpp` | Copy arrays using a custom AddElement function. | Reusability |
-| 17 | `Array-FilterOddNumbers.cpp` | Copying only odd numbers using logic filtering. | Logic Filtering |
-| 18 | `Array-CopyPrimesAdvanced.cpp` | Advanced filtering for prime numbers. | Optimization |
-| 19 | `Array-DistinctElements.cpp` | Copy only unique (distinct) elements. | De-duplication |
+| 01 | `01_Array-ElementFrequency.cpp` | Count how many times each element appears. | Frequency Counting |
+| 02 | `02_Array-RandomFill.cpp` | Automatically fill an array with random numbers. | Randomization |
+| 03 | `03_Array-MaxNumber.cpp` | Find the maximum value within an array. | Search Algorithms |
+| 04 | `04_Array-MinNumber.cpp` | Find the minimum value within an array. | Search Algorithms |
+| 05 | `05_Array-SumElements.cpp` | Calculate the total sum of all elements. | Accumulation |
+| 06 | `06_Array-AverageCalculation.cpp` | Calculate the mathematical average. | Statistics |
+| 07 | `07_Array-CopyBasic.cpp` | Copying elements from one array to another. | Data Transfer |
+| 08 | `08_Array-FilterPrimes.cpp` | Extract only prime numbers into a new array. | Number Theory |
+| 09 | `09_Arrays-ElementWiseSum.cpp` | Sum of two arrays element by element. | Vector Addition |
+| 10 | `10_Array-RandomShuffle.cpp` | Randomize the order of elements (Shuffle). | Random Algorithms |
+| 11 | `11_Array-ReverseCopy.cpp` | Copy elements in a reversed sequence. | Reverse Indexing |
+| 12 | `12_Array-KeyGenerator.cpp` | Generating an array of random security keys. | String Manipulation |
+| 13 | `13_Array-FindIndex.cpp` | Find the position (index) of a specific element. | Linear Search |
+| 14 | `14_Array-SearchElement.cpp` | Check if a specific value exists. | Boolean Logic |
+| 15 | `15_Array-DynamicAppend.cpp` | Add elements to a static array semi-dynamically. | Dynamic Growth |
+| 16 | `16_Array-CopyByAddition.cpp` | Copy arrays using a custom AddElement function. | Reusability |
+| 17 | `17_Array-FilterOddNumbers.cpp` | Copying only odd numbers using logic filtering. | Logic Filtering |
+| 18 | `18_Array-CopyPrimesAdvanced.cpp` | Advanced filtering for prime numbers. | Optimization |
+| 19 | `19_Array-DistinctElements.cpp` | Copy only unique (distinct) elements. | De-duplication |
 
 ---
 
