@@ -77,7 +77,16 @@ void ShuffleArray(int arr[100], int arrLength)
         Swap(arr[index1], arr[index2]);
     }
 }
-
+/*
+void ShuffleArray(int arr[100], int arrLength)
+{
+    for (int i = arrLength - 1; i > 0; i--)
+    {
+        int j = RandomNumber(0, i); // رقم عشوائي من 0 إلى i
+        swap(arr[i], arr[j]);       // تبديل العنصرين
+    }
+}
+*/
 // ==========================
 // Function: PrintArray
 // Purpose: Prints all elements of an array separated by spaces.
